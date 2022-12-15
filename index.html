@@ -538,12 +538,25 @@
 
                 <div class="form-field">
                     <label for="comment">Коментар</label>
-                    <textarea name="comment" id="comment" cols="10" rows="4" placeholder="Введіть текст"></textarea>
+                    <textarea name="comment" id="comment" rows="4" placeholder="Введіть текст"></textarea>
                 </div>
 
-                
+                <div class="form-check">
+                    <svg class="icon" width="16" height="15">
+                        <use href="./images/icons.svg#icon-check"></use>
+                    </svg>
+
+                    <input type="checkbox" name="consent" value="accepted" id="accepted">
+                    <label for="accepted">Погоджуюся з розсилкою та приймаю</label>
+                    
+                    <div class="contract-check">
+                        <a class="contract" href="">Умови договору</a>
+                    </div>
+
+                </div>
 
                 <button class="modal-btn-submit" type="submit">Відправити</button> 
+                
             </form>
 
         </div>
