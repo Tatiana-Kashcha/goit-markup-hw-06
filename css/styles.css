@@ -764,16 +764,12 @@ img {
     margin-bottom: 20px;
 }
 
-.send {
-    font-style: normal; 
-}
-
 .bloc-form {
     display: flex;
 }
 
 .bloc-form input {
-    color: var(--link-text-color);
+    color: var(--accent-text-color);
     background-color: var(--footer-background-color);
     font-size: 16px;
     line-height: 1.25;
@@ -787,6 +783,13 @@ img {
     margin: 0;
     padding: 15px 16px;
     margin-right: 12px;
+}
+
+.bloc-form input::placeholder {
+    color: var(--link-text-color);
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
 }
 
 .send-btn-submit {
@@ -879,7 +882,7 @@ img {
     color: var(--primary-accent-color);
 }
 
-.modal-hero .icon {
+.modal-hero .icon-close {
     fill: currentColor;
 }
 
@@ -939,6 +942,7 @@ img {
 }
 
 .form-field .icon {
+    fill: var(--title-text-color);
     position: absolute;
     top: 50%;
     margin-left: 12px;
